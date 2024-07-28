@@ -1,3 +1,5 @@
+from testColorCode import test_number_to_pair;
+from testColorCode import test_pair_to_number;
 
 MAJOR_COLORS = ['White', 'Red', 'Black', 'Yellow', 'Violet']
 MINOR_COLORS = ["Blue", "Orange", "Green", "Brown", "Slate"]
@@ -28,19 +30,6 @@ def get_pair_number_from_color(major_color, minor_color):
   except ValueError:
     raise Exception('Minor index out of range')
   return major_index * len(MINOR_COLORS) + minor_index + 1
-
-
-def test_number_to_pair(pair_number,
-                        expected_major_color, expected_minor_color):
-  major_color, minor_color = get_color_from_pair_number(pair_number)
-  assert(major_color == expected_major_color)
-  assert(minor_color == expected_minor_color)
-
-
-def test_pair_to_number(major_color, minor_color, expected_pair_number):
-  pair_number = get_pair_number_from_color(major_color, minor_color)
-  assert(pair_number == expected_pair_number)
-
 
 if __name__ == '__main__':
   test_number_to_pair(4, 'White', 'Brown')
