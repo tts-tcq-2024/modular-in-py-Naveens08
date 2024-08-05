@@ -1,7 +1,7 @@
 from constantColorValues import MAJOR_COLORS, MINOR_COLORS
 from ColorCodeFunctions import get_color_from_pair_number
 
-def print_color_coding_manual():
+def get_color_coding_ref_manual():
     manual = "Color Coding Manual\n"
     manual += "Pair Number | Major Color | Minor Color\n"
     manual += "------------|-------------|------------\n"
