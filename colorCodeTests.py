@@ -40,6 +40,7 @@ Pair Number | Major Color | Minor Color
          22 | Violet       | Orange
          23 | Violet       | Green
          24 | Violet       | Brown
-         25 | Violet       | Slate"  
+         25 | Violet       | Slate
+"  
   assert(manual == get_color_coding_ref_manual())
     
