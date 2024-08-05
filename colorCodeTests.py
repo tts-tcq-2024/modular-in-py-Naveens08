@@ -1,5 +1,5 @@
 from ColorCodeFunctions import get_color_from_pair_number, get_pair_number_from_color
-from printColorCodeManual import print_color_coding_manual
+from GetColorCodeRefManual import get_color_coding_ref_manual
 
 def test_number_to_pair(pair_number,
                         expected_major_color, expected_minor_color):
