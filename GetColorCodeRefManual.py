@@ -1,4 +1,4 @@
-from constantColorValues import MAJOR_COLORS, MINOR_COLORS
+from ColorCodeConstantValues import MAJOR_COLORS, MINOR_COLORS
 from ColorCodeFunctions import get_color_from_pair_number
 
 def get_color_coding_ref_manual():
