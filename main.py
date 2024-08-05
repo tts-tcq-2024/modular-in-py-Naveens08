@@ -1,4 +1,4 @@
-from colorCodeTests import test_number_to_pair, test_pair_to_number, test_print_color_coding_manual
+from ColorCodeFunctionsTests import test_number_to_pair, test_pair_to_number, test_print_color_coding_manual
 from GetColorCodingRefManualTests import test_get_color_coding_ref_manual
 
 if __name__ == '__main__':
