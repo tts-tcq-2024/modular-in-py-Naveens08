@@ -13,5 +13,5 @@ def test_pair_to_number(major_color, minor_color, expected_pair_number):
   assert(pair_number == expected_pair_number)
 
 def test_print_color_coding_manual():
-    manual = print_color_coding_manual()
+    manual = get_color_coding_ref_manual()
     print(manual)
